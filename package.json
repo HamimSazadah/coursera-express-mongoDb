@@ -10,10 +10,15 @@
     "type": "git",
     "url": "git+https://github.com/HamimSazadah/coursera-express-mongoDb.git"
   },
-  "author": "Hamim Sazadah",
+  "author": "Hamim sazadah",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/HamimSazadah/coursera-express-mongoDb/issues"
   },
-  "homepage": "https://github.com/HamimSazadah/coursera-express-mongoDb#readme"
+  "homepage": "https://github.com/HamimSazadah/coursera-express-mongoDb#readme",
+  "dependencies": {
+    "body-parser": "1.18.3",
+    "express": "4.16.3",
+    "morgan": "1.9.0"
+  }
 }
