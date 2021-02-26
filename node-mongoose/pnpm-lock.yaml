@@ -1,0 +1,131 @@
+dependencies:
+  mongoose: 5.1.7
+lockfileVersion: 5.2
+packages:
+  /async/2.6.1:
+    dependencies:
+      lodash: 4.17.21
+    dev: false
+    resolution:
+      integrity: sha512-fNEiL2+AZt6AlAw/29Cr0UDe4sRAHCpEHh54WMz+Bb7QfNcFw4h3loofyJpLeQs4Yx7yuqu/2dLgM5hKOs6HlQ==
+  /bluebird/3.5.0:
+    dev: false
+    resolution:
+      integrity: sha1-eRQg1/VR7qKJdFOop3ZT+WYG1nw=
+  /bson/1.0.9:
+    deprecated: Fixed a critical issue with BSON serialization documented in CVE-2019-2391, see https://bit.ly/2KcpXdo for more details
+    dev: false
+    engines:
+      node: '>=0.6.19'
+    resolution:
+      integrity: sha512-IQX9/h7WdMBIW/q/++tGd+emQr0XMdeZ6icnT/74Xk9fnabWn+gZgpE+9V+gujL3hhJOoNrnDVY7tWdzc7NUTg==
+  /debug/2.6.9:
+    dependencies:
+      ms: 2.0.0
+    dev: false
+    resolution:
+      integrity: sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==
+  /kareem/2.2.1:
+    dev: false
+    resolution:
+      integrity: sha512-xpDFy8OxkFM+vK6pXy6JmH92ibeEFUuDWzas5M9L7MzVmHW3jzwAHxodCPV/BYkf4A31bVDLyonrMfp9RXb/oA==
+  /lodash.get/4.4.2:
+    dev: false
+    resolution:
+      integrity: sha1-LRd/ZS+jHpObRDjVNBSZ36OCXpk=
+  /lodash/4.17.21:
+    dev: false
+    resolution:
+      integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
+  /mongodb-core/3.0.9:
+    dependencies:
+      bson: 1.0.9
+      require_optional: 1.0.1
+    dev: false
+    resolution:
+      integrity: sha512-buOWjdLLBlEqjHDeHYSXqXx173wHMVp7bafhdHxSjxWdB9V6Ri4myTqxjYZwL/eGFZxvd8oRQSuhwuIDbaaB+g==
+  /mongodb/3.0.10:
+    dependencies:
+      mongodb-core: 3.0.9
+    dev: false
+    engines:
+      node: '>=4'
+    resolution:
+      integrity: sha512-jy9s4FgcM4rl8sHNETYHGeWcuRh9AlwQCUuMiTj041t/HD02HwyFgmm2VZdd9/mA9YNHaUJLqj0tzBx2QFivtg==
+  /mongoose-legacy-pluralize/1.0.2_mongoose@5.1.7:
+    dependencies:
+      mongoose: 5.1.7
+    dev: false
+    peerDependencies:
+      mongoose: '*'
+    resolution:
+      integrity: sha512-Yo/7qQU4/EyIS8YDFSeenIvXxZN+ld7YdV9LqFVQJzTLye8unujAWPZ4NWKfFA+RNjh+wvTWKY9Z3E5XM6ZZiQ==
+  /mongoose/5.1.7:
+    dependencies:
+      async: 2.6.1
+      bson: 1.0.9
+      kareem: 2.2.1
+      lodash.get: 4.4.2
+      mongodb: 3.0.10
+      mongoose-legacy-pluralize: 1.0.2_mongoose@5.1.7
+      mpath: 0.4.1
+      mquery: 3.0.0
+      ms: 2.0.0
+      regexp-clone: 0.0.1
+      sliced: 1.0.1
+    dev: false
+    engines:
+      node: '>=4.0.0'
+    resolution:
+      integrity: sha512-9zus8yEovPqLo3S2iXz2Dg9YJAo8xG7m161abqJbUNIqZYjvpPwjmWAs6ChZnxEUpTYFOve//ljvyA5V5D9sNw==
+  /mpath/0.4.1:
+    dev: false
+    engines:
+      node: '>=4.0.0'
+    resolution:
+      integrity: sha512-NNY/MpBkALb9jJmjpBlIi6GRoLveLUM0pJzgbp9vY9F7IQEb/HREC/nxrixechcQwd1NevOhJnWWV8QQQRE+OA==
+  /mquery/3.0.0:
+    dependencies:
+      bluebird: 3.5.0
+      debug: 2.6.9
+      regexp-clone: 0.0.1
+      sliced: 0.0.5
+    dev: false
+    resolution:
+      integrity: sha512-WL1Lk8v4l8VFSSwN3yCzY9TXw+fKVYKn6f+w86TRzOLSE8k1yTgGaLBPUByJQi8VcLbOdnUneFV/y3Kv874pnQ==
+  /ms/2.0.0:
+    dev: false
+    resolution:
+      integrity: sha1-VgiurfwAvmwpAd9fmGF4jeDVl8g=
+  /regexp-clone/0.0.1:
+    dev: false
+    resolution:
+      integrity: sha1-p8LgmJH9vzj7sQ03b7cwA+aKxYk=
+  /require_optional/1.0.1:
+    dependencies:
+      resolve-from: 2.0.0
+      semver: 5.7.1
+    dev: false
+    resolution:
+      integrity: sha512-qhM/y57enGWHAe3v/NcwML6a3/vfESLe/sGM2dII+gEO0BpKRUkWZow/tyloNqJyN6kXSl3RyyM8Ll5D/sJP8g==
+  /resolve-from/2.0.0:
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-lICrIOlP+h2egKgEx+oUdhGWa1c=
+  /semver/5.7.1:
+    dev: false
+    hasBin: true
+    resolution:
+      integrity: sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ==
+  /sliced/0.0.5:
+    dev: false
+    resolution:
+      integrity: sha1-XtwETKTrb3gW1Qui/GPiXY/kcH8=
+  /sliced/1.0.1:
+    dev: false
+    resolution:
+      integrity: sha1-CzpmK10Ewxd7GSa+qCsD+Dei70E=
+specifiers:
+  mongoose: 5.1.7
