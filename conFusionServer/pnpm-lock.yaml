@@ -9,6 +9,9 @@ dependencies:
   mongoose-currency: 0.2.0_mongoose@5.1.7
   morgan: 1.9.1
   nodemon: 2.0.7
+  passport: 0.4.0
+  passport-local: 1.0.0
+  passport-local-mongoose: 5.0.1
   session-file-store: 1.2.0
 lockfileVersion: 5.2
 packages:
@@ -616,6 +619,10 @@ packages:
       - darwin
     resolution:
       integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==
+  /generaterr/1.5.0:
+    dev: false
+    resolution:
+      integrity: sha1-sM62zFFk3yoGEzjMNAqGFTlcUvw=
   /get-stream/4.1.0:
     dependencies:
       pump: 3.0.0
@@ -1184,10 +1191,49 @@ packages:
       node: '>= 0.8'
     resolution:
       integrity: sha512-CiyeOxFT/JZyN5m0z9PfXw4SCBJ6Sygz1Dpl0wqjlhDEGGBP1GnsUVEL0p63hoG1fcj3fHynXi9NYO4nWOL+qQ==
+  /passport-local-mongoose/5.0.1:
+    dependencies:
+      debug: 3.2.7
+      generaterr: 1.5.0
+      passport-local: 1.0.0
+      scmp: 2.1.0
+      semver: 5.7.1
+    dev: false
+    engines:
+      node: '>= 6.0.0'
+    resolution:
+      integrity: sha512-VUY5DgBdpjt1tjunJJ1EXV5b2nhMDkXJuhTjyiK660IgIp7kONMyWEe9tGHf8I9tZudXuTF+47JNQLIzU+Hjbw==
+  /passport-local/1.0.0:
+    dependencies:
+      passport-strategy: 1.0.0
+    dev: false
+    engines:
+      node: '>= 0.4.0'
+    resolution:
+      integrity: sha1-H+YyaMkudWBmJkN+O5BmYsFbpu4=
+  /passport-strategy/1.0.0:
+    dev: false
+    engines:
+      node: '>= 0.4.0'
+    resolution:
+      integrity: sha1-tVOaqPwiWj0a0XlHbd8ja0QPUuQ=
+  /passport/0.4.0:
+    dependencies:
+      passport-strategy: 1.0.0
+      pause: 0.0.1
+    dev: false
+    engines:
+      node: '>= 0.4.0'
+    resolution:
+      integrity: sha1-xQlWkTR71a07XhgCOMORTRbwWBE=
   /path-to-regexp/0.1.7:
     dev: false
     resolution:
       integrity: sha1-32BBeABfUi8V60SQ5yR6G/qmf4w=
+  /pause/0.0.1:
+    dev: false
+    resolution:
+      integrity: sha1-HUCLP9t2kjuVQ9lvtMnf1TXZy10=
   /picomatch/2.2.2:
     dev: false
     engines:
@@ -1352,6 +1398,10 @@ packages:
     dev: false
     resolution:
       integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
+  /scmp/2.1.0:
+    dev: false
+    resolution:
+      integrity: sha512-o/mRQGk9Rcer/jEEw/yw4mwo3EU/NvYvp577/Btqrym9Qy5/MdWGBqipbALgd2lrdWTJ5/gqDusxfnQBxOxT2Q==
   /semver-diff/3.1.1:
     dependencies:
       semver: 6.3.0
@@ -1769,4 +1819,7 @@ specifiers:
   mongoose-currency: 0.2.0
   morgan: ~1.9.0
   nodemon: ^2.0.7
+  passport: 0.4.0
+  passport-local: 1.0.0
+  passport-local-mongoose: 5.0.1
   session-file-store: 1.2.0
