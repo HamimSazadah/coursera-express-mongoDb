@@ -1,5 +1,6 @@
 dependencies:
   cookie-parser: 1.4.3
+  cors: 2.8.5
   debug: 2.6.9
   express: 4.16.4
   express-session: 1.15.6
@@ -398,6 +399,15 @@ packages:
       node: '>= 0.6'
     resolution:
       integrity: sha1-5+Ch+e9DtMi6klxcWpboBtFoc7s=
+  /cors/2.8.5:
+    dependencies:
+      object-assign: 4.1.1
+      vary: 1.1.2
+    dev: false
+    engines:
+      node: '>= 0.10'
+    resolution:
+      integrity: sha512-KIHbLJqu73RGr/hnbrO9uBeixNGuvSQjul/jdFvS/KFSIH1hWVd1ng7zOHx+YrEfInLG7q4n6GHQ9cDtxv/P6g==
   /crc/3.4.4:
     dev: false
     resolution:
@@ -1893,6 +1903,7 @@ packages:
       integrity: sha1-9+572FfdfB0tOMDnTvvWgdFDH9E=
 specifiers:
   cookie-parser: 1.4.3
+  cors: ^2.8.5
   debug: ~2.6.9
   express: ~4.16.0
   express-session: 1.15.6
